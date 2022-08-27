@@ -1,5 +1,4 @@
 package com.example.demo;
-
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
@@ -22,7 +21,6 @@ class S01springboothelloworld1ApplicationTests {
 	ProductRepository repo = context.getBean(ProductRepository.class);
 	
 	Product product = new Product();
-	product.setId(8);
 	product.setName("Headset");
 	product.setDescription("Bluetooth");
 	product.setPrice("2000");

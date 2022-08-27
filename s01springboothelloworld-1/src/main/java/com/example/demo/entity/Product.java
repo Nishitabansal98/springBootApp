@@ -14,7 +14,7 @@ public class Product {
 	private String name;
 	private String description;
 	private String price;
-	public String getId() {
+	public int getId() {
 		return id;
 	}
 	public void setId(int i) {
