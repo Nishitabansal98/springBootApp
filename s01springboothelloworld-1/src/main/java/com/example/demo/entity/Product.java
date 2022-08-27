@@ -13,12 +13,12 @@ public class Product {
 	private int id;
 	private String name;
 	private String description;
-	private double price;
-	public int getId() {
+	private String price;
+	public String getId() {
 		return id;
 	}
-	public void setId(int id) {
-		this.id = id;
+	public void setId(int i) {
+		this.id = i;
 	}
 	public String getName() {
 		return name;
@@ -32,16 +32,14 @@ public class Product {
 	public void setDescription(String description) {
 		this.description = description;
 	}
-	public double getPrice() {
+	public String getPrice() {
 		return price;
 	}
-	public void setPrice(double price) {
+	public void setPrice(String price) {
 		this.price = price;
 	}
 	@Override
 	public String toString() {
 		return "Product [id=" + id + ", name=" + name + ", description=" + description + ", price=" + price + "]";
 	}
-	
-
 }
