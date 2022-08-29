@@ -17,7 +17,7 @@ class S01springboothelloworld1ApplicationTests {
 	}
 	
 	@Test
-	void saveProduct(){
+	void saveProduct() {
 	ProductRepository repo = context.getBean(ProductRepository.class);
 	
 	Product product = new Product();
